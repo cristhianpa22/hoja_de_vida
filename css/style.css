@@ -1,0 +1,206 @@
+
+
+.hr{
+border: 2px solid #313B4E;
+margin-left: 0;     
+width: 50%;
+}
+hr{
+border: 2px solid #89b2ff;
+margin-left: 0; 
+width: 90%;
+}
+.hrcon{
+border: 2px solid #313B4E;
+margin-left: 120px;     
+width: 75%;
+}
+.informacion h1{
+    font-size: 2.5rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    
+}
+.inicio{        
+    display: flex;
+    margin: 25px;
+}
+.lado1{
+    width: 60%;
+    
+}
+.informacion{
+background-color: #313B4E;
+color: white;
+border-radius: 15px;
+padding: 15px 20px;
+}
+.foto{
+    margin-left: 790px;
+    margin-top: -280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+.margen{
+    background: #fff;
+    border: 4px solid #313B4E; /*  */
+    border-radius: 50%;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margen img{
+    width: 180px;
+    border-radius: 10px;
+    position: static;
+}
+.informacion p{
+    font-size: 1rem;
+    max-width: 700px;
+}
+.experiencia p{
+    font-size: 1.5rem;
+}
+.experiencia h1{
+    font-size: 2rem;
+    color: #2E3C4E;
+}
+.lado2{
+    width: 40%;
+}
+
+.contacto a{
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    padding:5px 10px;
+    justify-content: right;
+    border-radius: 15px;
+    
+    
+}
+
+.gris{
+    background-color: #EBEBEB;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.skills{
+    
+    text-align: left;
+    
+    
+}
+.skills h1{
+    font-size: 2rem;
+    color: #2E3C4E;
+
+}
+.pro{
+    padding: 5px 30px;
+    height: 50px;
+    padding-left: 12px;
+
+}
+.pro2{
+   
+    background-color: #2E3C4E;
+    color: #EBEBEB;
+    height: 50px;
+    padding-left: 12px;
+
+}
+.pro2 h2{
+    padding-top: 12px;
+}
+.lenguajes h1{
+    font-size: 2rem;
+    color: #2E3C4E;
+}
+.lenguajes p{
+    font-size: 1.5rem;
+}
+.linea {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+
+.linea span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    min-width: 90px;
+}
+
+
+.progreso {
+    flex-grow: 1; 
+    height: 20px;
+    background-color: #343A40;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.barrar {
+    height: 100%;
+    background-color: #007bff; 
+    border-radius: 10px 0px 10px 0px;
+}
+
+.html + .progreso .barrar {
+    width: 70%;
+    background-color: #e44d26; 
+}
+
+
+.css+  .progreso .barrar {
+    width: 50%;
+    background-color: #264de4; /* Azul */
+}
+
+
+.js + .progreso .barrar {
+    width: 30%;
+    background-color: #f7df1e; /* Amarillo */
+}
+
+
+.msql +  .progreso .barrar {
+    width: 20%;
+    background-color: #00758f; /* Azul oscuro */
+}
+
+
+.php+ .progreso .barrar {
+    width: 10%;
+    background-color: #777bb3; /* Púrpura */
+}
+.intereses h1{
+    font-size: 2rem;
+    color: #2E3C4E;
+}
+.intereses li{
+    font-size: 1.5rem;
+
+}
+
+.año{
+font-size: 1.5rem;
+color: #729D93;
+}
+.estudios h1{
+    font-size: 2rem;
+    color: #2E3C4E;
+}
+.estudios li{
+    font-size: 1.5rem;
+}
