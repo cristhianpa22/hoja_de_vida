@@ -204,3 +204,227 @@ color: #729D93;
 .estudios li{
     font-size: 1.5rem;
 }
+
+/* ===== MEDIA QUERIES - RESPONSIVE MÓVIL ===== */
+
+/* Tablets y móviles grandes (max 1024px) */
+@media (max-width: 1024px) {
+    .inicio {
+        margin: 20px;
+        flex-direction: column;
+    }
+    
+    .lado1 {
+        width: 100%;
+    }
+    
+    .lado2 {
+        width: 100%;
+    }
+    
+    .foto {
+        margin-left: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+}
+
+/* Tablets (max 768px) */
+@media (max-width: 768px) {
+    .inicio {
+        margin: 15px;
+        flex-direction: column;
+    }
+    
+    .lado1 {
+        width: 100%;
+    }
+    
+    .lado2 {
+        width: 100%;
+    }
+    
+    .informacion h1 {
+        font-size: 2rem;
+    }
+    
+    .informacion p {
+        font-size: 0.95rem;
+        max-width: 100%;
+    }
+    
+    .foto {
+        margin-left: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+    
+    .margen img {
+        width: 140px;
+    }
+    
+    .experiencia h1, .estudios h1, .lenguajes h1, .intereses h1, .skills h1 {
+        font-size: 1.3rem;
+    }
+    
+    .experiencia p, .estudios li, .intereses li, .lenguajes p {
+        font-size: 1.1rem;
+    }
+    
+    .contacto a {
+        font-size: 1rem;
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    .hrcon {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .linea {
+        flex-wrap: wrap;
+    }
+    
+    .progreso {
+        min-width: 120px;
+    }
+}
+
+/* Móviles (max 640px) */
+@media (max-width: 640px) {
+    .inicio {
+        margin: 10px;
+        flex-direction: column;
+    }
+    
+    .lado1 {
+        width: 100%;
+    }
+    
+    .lado2 {
+        width: 100%;
+    }
+    
+    .informacion {
+        padding: 12px 15px;
+    }
+    
+    .informacion h1 {
+        font-size: 1.6rem;
+    }
+    
+    .informacion p {
+        font-size: 0.9rem;
+    }
+    
+    .foto {
+        margin-left: 0;
+        margin-top: 15px;
+        height: auto;
+    }
+    
+    .margen img {
+        width: 120px;
+    }
+    
+    .experiencia, .estudios, .intereses {
+        padding: 15px;
+        margin-top: 15px;
+    }
+    
+    .experiencia h1, .estudios h1, .intereses h1, .skills h1 {
+        font-size: 1.2rem;
+    }
+    
+    .experiencia p, .estudios li, .intereses li {
+        font-size: 1rem;
+    }
+    
+    .contacto a {
+        font-size: 0.95rem;
+        padding: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hr {
+        width: 100%;
+    }
+    
+    .hrcon {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .gris {
+        padding: 15px;
+    }
+    
+    .pro, .pro2 {
+        padding: 5px 10px;
+    }
+    
+    .linea {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .linea span {
+        font-size: 0.95rem;
+    }
+    
+    .progreso {
+        min-width: 100%;
+        height: 18px;
+    }
+}
+
+/* Móviles pequeños (max 480px) */
+@media (max-width: 480px) {
+    .inicio {
+        margin: 8px;
+    }
+    
+    .informacion {
+        padding: 10px 12px;
+    }
+    
+    .informacion h1 {
+        font-size: 1.4rem;
+    }
+    
+    .informacion p {
+        font-size: 0.85rem;
+    }
+    
+    .margen img {
+        width: 100px;
+    }
+    
+    .experiencia h1, .estudios h1, .lenguajes h1, .intereses h1 {
+        font-size: 1.1rem;
+    }
+    
+    i {
+        font-size: 1.5rem !important;
+        padding: 0.3rem !important;
+    }
+    
+    .contacto a {
+        font-size: 0.85rem;
+        padding: 6px;
+    }
+    
+    .experiencia p, .estudios li, .intereses li {
+        font-size: 0.9rem;
+    }
+    
+    .gris {
+        padding: 10px;
+    }
+    
+    .pro, .pro2 {
+        padding: 5px 8px;
+    }
+}
